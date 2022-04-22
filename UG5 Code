@@ -1,0 +1,13 @@
+int main()
+{
+  enable_servos();
+  
+  Set_servo_position(0, 720);
+  msleep(4500);
+  
+  set_servo_position(1, 1500);
+  msleep(4500);
+  
+  disable_servos();
+  return 0;
+}
